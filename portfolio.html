@@ -36,91 +36,131 @@
 
     <main>
         <!--Наши работы-->
-        <section>
+        <section class="section">
             <!--Фильтр-->
-            <h1>Портфолио</h1>
+            <h1 class="visually-hidden">Портфолио</h1>
             <!--Визуально спрячется-->
-            <ul>
-                <li class="list"><button type="button" class="btn secondary current">Все</button></li>
-                <li class="list"><button type="button" class="btn secondary">Веб-сайты</button></li>
-                <li class="list"><button type="button" class="btn secondary">Приложения</button></li>
-                <li class="list"><button type="button" class="btn secondary">Дизайн</button></li>
-                <li class="list"><button type="button" class="btn secondary">Маркетинг</button></li>
-            </ul>
-
-            <ul class="section-portfolio">
-                <li class="list">
-                    <a href="" class="link">
-                        <img src="./images/portfolio/img1.jpg" alt="фото ноутбука с главной страницей сайта" width="370" height="294">
-                        <h2 class="portfolio-title">Технокряк</h2>
-                        <p class="title">Веб-сайт</p>
-                    </a>
-                </li>
-            
-                <li class="list">
-                    <a href="" class="link">
-                        <img src="./images/portfolio/img2.jpg" alt="два баскетболист с мячом" width="370" height="294">
-                        <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-                        <p class="title">Дизайн</p>
-                    </a>
-                </li>
-            
-                <li class="list">
-                    <a href="" class="link">
-                        <img src="./images/portfolio/img3.jpg" alt="логотип ресторана Seafood" width="370" height="294">
-                        <h2 class="portfolio-title">Ресторан Seafood</h2>
-                        <p class="title">Приложение</p>
-                    </a>
-                </li>
-            
-                <li class="list">
-                    <a href="" class="link">
-                       <img src="./images/portfolio/img4.jpg" alt="наушники" width="370" height="294">
-                        <h2 class="portfolio-title">Проект Prime</h2>
-                        <p class="title">Маркетинг</p> 
-                    </a>
-                </li>
-           
-                <li class="list">
-                    <a href="" class="link">
-                        <img src="./images/portfolio/img5.jpg" alt="фото две коробки" width="370" height="294">
-                        <h2 class="portfolio-title">Проект Boxes</h2>
-                        <p class="title">Приложение</p>
-                    </a>
-                </li>
-            
-                <li class="list">
-                    <a href="" class="link">
-                       <img src="./images/portfolio/img6.jpg" alt="фото монитора" width="370" height="294">
-                        <h2 class="portfolio-title">Inspiration has no Borders</h2>
-                        <p class="title">Веб-сайт</p> 
-                    </a>
-                 </li>
-            
-                <li class="list">
-                    <a href="" class="link">
-                        <img src="./images/portfolio/img7.jpg" alt="фото развёрнутого журнала" width="370" height="294">
-                        <h2 class="portfolio-title">Издание Limited Edition</h2>
-                        <p class="title">Дизайн</p>  
-                    </a>
-                </li>
-            
-                <li class="list">
-                    <a href="" class="link">
-                        <img src="./images/portfolio/img8.jpg" alt="фото лейбы" width="370" height="294">
-                        <h2 class="portfolio-title">Проект LAB</h2>
-                        <p class="title">Маркетинг</p>
-                    </a>
-                </li>
-            
-                <li class="list">
-                    <a href="" class="link">
-                        <img src="./images/portfolio/img9.jpg" alt="фото работы за ноутбуком" width="370" height="294">
-                        <h2 class="portfolio-title">Growing Business</h2>
-                        <p class="title">Приложение</p>
-                    </a>
-                </li>
-            </ul>
+            <div class="container">
+                <div class="btn-container">
+                    <ul class="flex-btn">
+                        <li class="list"><button type="button" class="btn secondary current">Все</button></li>
+                        <li class="list"><button type="button" class="btn secondary">Веб-сайты</button></li>
+                        <li class="list"><button type="button" class="btn secondary">Приложения</button></li>
+                        <li class="list"><button type="button" class="btn secondary">Дизайн</button></li>
+                        <li class="list"><button type="button" class="btn secondary">Маркетинг</button></li>
+                    </ul>
+                </div>
+                
+                    <ul class="section-portfolio flex-container">
+                    <div class="flex-element">
+                        <li class="list">
+                             <a href="" class="link">
+                                <img class="card-image no-gap" src="./images/portfolio/img1.jpg" alt="фото ноутбука с главной страницей сайта" width="370"
+                                        height="294">
+                                <div class="card-title">
+                                    <h2 class="portfolio-title">Технокряк</h2>
+                                    <p class="title">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    
+                    <div class="flex-element">
+                        <li class="list">
+                            <a href="" class="link">
+                                <img class="card-image no-gap" src="./images/portfolio/img2.jpg" alt="два баскетболист с мячом" width="370" height="294">
+                                <div class="card-title">
+                                    <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+                                    <p class="title">Дизайн</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    
+                    <div class="flex-element">
+                        <li class="list">
+                            <a href="" class="link">
+                                <img class="card-image no-gap" src="./images/portfolio/img3.jpg" alt="логотип ресторана Seafood" width="370" height="294">
+                                <div class="card-title">
+                                    <h2 class="portfolio-title">Ресторан Seafood</h2>
+                                    <p class="title">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    
+                    <div class="flex-element">
+                        <li class="list">
+                            <a href="" class="link">
+                                <img class="card-image no-gap" src="./images/portfolio/img4.jpg" alt="наушники" width="370" height="294">
+                                <div class="card-title">
+                                    <h2 class="portfolio-title">Проект Prime</h2>
+                                    <p class="title">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    
+                    <div class="flex-element">
+                        <li class="list">
+                            <a href="" class="link">
+                                <img class="card-image no-gap" src="./images/portfolio/img5.jpg" alt="фото две коробки" width="370" height="294">
+                                <div class="card-title">
+                                    <h2 class="portfolio-title">Проект Boxes</h2>
+                                    <p class="title">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    
+                    <div class="flex-element">
+                        <li class="list">
+                            <a href="" class="link">
+                                <img class="card-image no-gap" src="./images/portfolio/img6.jpg" alt="фото монитора" width="370" height="294">
+                                <div class="card-title">
+                                    <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                                    <p class="title">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    
+                    <div class="flex-element">
+                        <li class="list">
+                            <a href="" class="link">
+                                <img class="card-image no-gap" src="./images/portfolio/img7.jpg" alt="фото развёрнутого журнала" width="370" height="294">
+                                <div class="card-title">
+                                    <h2 class="portfolio-title">Издание Limited Edition</h2>
+                                    <p class="title">Дизайн</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    
+                    <div class="flex-element">
+                        <li class="list">
+                            <a href="" class="link">
+                                <img class="card-image no-gap" src="./images/portfolio/img8.jpg" alt="фото лейбы" width="370" height="294">
+                                <div class="card-title">
+                                    <h2 class="portfolio-title">Проект LAB</h2>
+                                    <p class="title">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    
+                    <div class="flex-element">
+                        <li class="list">
+                            <a href="" class="link">
+                                <img class="card-image no-gap" src="./images/portfolio/img9.jpg" alt="фото работы за ноутбуком" width="370" height="294">
+                                <div class="card-title"><h2 class="portfolio-title">Growing Business</h2>
+                                <p class="title">Приложение</p></div>
+                            </a>
+                        </li>
+                    </div>
+                    </ul>
+                
+            </div>
         </section>
     </main>
 
